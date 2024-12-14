@@ -5,25 +5,21 @@ export const taskSchema = new Schema({
         unique : true,
         type : Number,
         required : true,
-    } ,
-    name : String,
+    },
     description :{
         unique : true,
         type : String,
         required : true,
     } ,
     value1 :{
-        unique : true,
         type : String,
         required : true,
     } ,
     value2 :{
-        unique : true,
         type : String,
         required : true,
     } ,
     value3 :{
-        unique : true,
         type : String,
         required : true,
     } ,
